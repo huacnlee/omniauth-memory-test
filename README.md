@@ -10,7 +10,7 @@ $ rake memory
 
 Output:
 
-> 🧨 Total retained means there has number of bytes memory leak.
+> 🧨 `Total retained` - means there has number of bytes memory leak.
 
 ```
 bundle exec derailed exec perf:objects
