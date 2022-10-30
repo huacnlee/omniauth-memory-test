@@ -75,5 +75,5 @@ gem "derailed_benchmarks", "~> 2.1"
 
 gem "devise", "~> 4.8"
 
-gem "omniauth", "~> 1.9"
-gem "omniauth-github", "~> 1.4"
+gem "omniauth", "~> 2.0"
+gem "omniauth-github"

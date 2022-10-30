@@ -12,6 +12,27 @@ Output:
 
 > 🧨 `Total retained` - means there has number of bytes memory leak.
 
+## OmniAuth 2.0
+
+```rb
+gem "omniauth", "~> 2.0"
+gem "omniauth-github"
+```
+
+Output:
+
+```
+bundle exec derailed exec perf:objects
+Booting: production
+Database 'foo_development' already exists
+Endpoint: "/"
+Running 1 times
+Total allocated: 50367 bytes (710 objects)
+Total retained:  40 bytes (1 objects)
+```
+
+## OmniAuth 1.9
+
 ```rb
 gem "omniauth", "~> 1.9"
 gem "omniauth-github", "~> 1.4"
